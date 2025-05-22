@@ -2,10 +2,14 @@
 <head>
   <title>Week 10</title>
   <script>
+    //Set counter, ready for when it will be used. Also insert function to count the clicks
     counter = 0;
+
         function countClicks() {
           counter = counter + 1;
           var output = 'link was pressed' + counter + 'times.';
+
+          //Identify element 'boxy' and store it.  
           var element = document.getElementById('boxy');
           element.interHTML = output;
         }
